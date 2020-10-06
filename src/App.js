@@ -3,9 +3,10 @@ import Intro from './components/Intro';
 import Nav from './components/Nav'
 
 
+
 function App() {
   return (
-    <div>
+    <div id="background">
       <Nav></Nav>
       <main>
         <Intro></Intro>
