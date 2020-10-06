@@ -3,7 +3,12 @@ import React from 'react';
 function Nav() {
 
   return (
-      <header>
+      <header className="flex-row px-1 navbar">
+          <h2>
+            <a data-testid="link" href="/">
+            <span> </span> Tom Breazier
+            </a>
+        </h2>
           <nav>
               <ul className="flex-row">
                   <li className="mx-2">

@@ -299,5 +299,9 @@ a {
 
 #profile {
   border-radius: 75%;
-  height: 300px;
+  height: 250px;
+}
+
+.navbar {
+  justify-content: end;
 }
