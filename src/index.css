@@ -152,7 +152,7 @@ li {
   list-style: none;
 }
 
-nav a:hover {
+.nav-link hover {
   text-decoration: none;
 }
 
@@ -259,8 +259,8 @@ a {
 	text-decoration: none;
 }
 
-.navActive {
-  color: var(--secondary);
+.nav-link-active {
+  color: var(--tertiary);
 }
 
 #profile {
@@ -285,6 +285,10 @@ a {
 .footer-icon {
   max-height: 75px;
   margin: 20px;
+}
+
+.footer-icon:hover {
+  background-color: var(--tertiary);
 }
 
 .contact {
