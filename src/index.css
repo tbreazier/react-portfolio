@@ -35,7 +35,7 @@ body {
   font-size: 18px;
   letter-spacing: .1em;
   background: var(--dark);
-  color: var(--light);
+  color: var(--dark);
   font-family: 'Poiret One', cursive;
   background-image: url('./assets/imgs/cover4.jpg');
   background-repeat: no-repeat;
