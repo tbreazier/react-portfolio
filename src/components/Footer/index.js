@@ -2,8 +2,8 @@ import React from 'react';
 
 function Footer () {
   return (
-    <footer className='footer'>
-    <div>
+    
+    <div className='footer'>
         <a href='https://github.com/tbreazier' target='blank'>
           <img src={require('../../assets/imgs/github.png')} className='footer-icon' alt='logo'></img>
         </a>
@@ -13,14 +13,14 @@ function Footer () {
         <a href='https://mediocresecurity.wordpress.com/' target='blank'>
           <img src={require('../../assets/imgs/wordpress.png')} className='footer-icon' alt='logo'></img>
         </a>
-        <p>
+        <h5>
             Created by T.O.M.S&#8482;
             <br>
             </br>
             2020
-        </p>
+        </h5>
     </div>
-    </footer>
+  
   );
 }
 
