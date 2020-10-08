@@ -3,7 +3,7 @@ import React from 'react';
 function Footer () {
   return (
     
-    <div className='footer'>
+    <footer className='footer'>
         <a href='https://github.com/tbreazier' target='blank'>
           <img src={require('../../assets/imgs/github.png')} className='footer-icon' alt='logo'></img>
         </a>
@@ -19,7 +19,7 @@ function Footer () {
             </br>
             2020
         </h5>
-    </div>
+    </footer>
   
   );
 }

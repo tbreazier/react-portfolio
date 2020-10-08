@@ -41,8 +41,9 @@ function App() {
 
   return (
     <div className="main">
-      
+      <header>
         <Nav links={links} currentLink={currentLink} setCurrentLink={setCurrentLink}></Nav>
+        </header>
         <main>
           <div>{renderPage(currentLink)}</div>
         </main>
