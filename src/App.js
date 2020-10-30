@@ -3,7 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Intro from './components/Intro';
 import Nav from './components/Nav';
-import Contact from './components/Contact';
+// import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Projects from './components/Projects';
 import Resume from './components/Resume';
@@ -17,9 +17,9 @@ function App() {
     {
       name: 'Projects'
     },
-    {
-      name: 'Contact'
-    },
+    // {
+    //   name: 'Contact'
+    // },
     {
       name: 'Resume'
     }
@@ -28,8 +28,8 @@ function App() {
 
   const renderPage = () => {
     switch (currentLink.name) {
-      case 'Contact':
-        return <Contact />
+      // case 'Contact':
+      //   return <Contact />
         case 'Projects':
         return <Projects />
         case 'Resume':
